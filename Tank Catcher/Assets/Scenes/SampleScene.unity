@@ -132,17 +132,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MT_Road_01
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.74963903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20.12
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -245,6 +249,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1001 &316017477
@@ -257,6 +266,10 @@ PrefabInstance:
     - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_Name
       value: MT_Road_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -371,6 +384,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1001 &533283296
@@ -384,17 +402,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: MT_Road_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.74963903
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 50.1
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -589,6 +611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1 &963194225
@@ -741,6 +768,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1001 &1237872563
@@ -809,6 +841,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
@@ -879,6 +916,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1001 &1317614511
@@ -891,6 +933,10 @@ PrefabInstance:
     - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_Name
       value: MT_Road_01 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1005,8 +1051,74 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
+--- !u!1 &1630203081
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1630203083}
+  - component: {fileID: 1630203082}
+  m_Layer: 0
+  m_Name: WorldManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1630203082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630203081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b355a8e42a90a82409bd49e6436df27f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldViewDistance: 5
+  movementSpeed: 50
+  environmentPieces:
+  - prefab: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+    length: 30
+    xPositionRange: {x: 0, y: 0}
+    heightRange: {x: 0, y: 0}
+  - prefab: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+      type: 3}
+    length: 27
+    xPositionRange: {x: 11, y: 11}
+    heightRange: {x: -7, y: -7}
+  - prefab: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+      type: 3}
+    length: 27
+    xPositionRange: {x: -25, y: -25}
+    heightRange: {x: -7, y: -7}
+  environmentParent: {fileID: 2132146420}
+--- !u!4 &1630203083
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1630203081}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -30.817066, y: 15.334707, z: 36.629467}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1669354249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1074,6 +1186,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
 --- !u!1001 &2017072008
@@ -1089,15 +1206,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b6483fdf85dc52143b3a48449d6b17fb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.15864122
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b6483fdf85dc52143b3a48449d6b17fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.73963904
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b6483fdf85dc52143b3a48449d6b17fb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.73
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: b6483fdf85dc52143b3a48449d6b17fb, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1143,6 +1260,10 @@ PrefabInstance:
     - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_Name
       value: MT_Road_01 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4000010693373134, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1257,8 +1378,43 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}
+--- !u!1 &2132146419
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2132146420}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2132146420
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2132146419}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.0581646, y: -5.5327477, z: 6.9324417}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7908087603980441414
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1274,7 +1430,7 @@ PrefabInstance:
     - target: {fileID: 7908087602945731706, guid: a6355e5127694064fa9c2ae735fbd313,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.3475637
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7908087602945731706, guid: a6355e5127694064fa9c2ae735fbd313,
         type: 3}
@@ -1325,6 +1481,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Terrain
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6355e5127694064fa9c2ae735fbd313, type: 3}

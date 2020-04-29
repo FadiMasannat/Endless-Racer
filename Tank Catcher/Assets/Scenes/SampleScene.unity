@@ -695,7 +695,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.14164728, y: -0, z: -0, w: 0.9899172}
-  m_LocalPosition: {x: 0, y: 1.8, z: -10}
+  m_LocalPosition: {x: 0, y: 1.8, z: -6.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -984,6 +984,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
+--- !u!1 &1396651570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: b6483fdf85dc52143b3a48449d6b17fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2017072008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1396651572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1396651570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7d5a55475e0a648a3631bc60f1b672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  streetBounds: {x: -3, y: 3}
+  turnSpeed: 0.65
+  turnAngle: 50
+  accelSpeed: 0.1
+  accelDist: 2
 --- !u!1001 &1558999118
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1091,13 +1114,13 @@ MonoBehaviour:
   movementSpeed: 50
   environmentPieces:
   - prefab: {fileID: 1000013632414188, guid: 002722443636f47cc9e92f08808bc16c, type: 3}
-    length: 30
+    length: 29
     xPositionRange: {x: 0, y: 0}
     heightRange: {x: 0, y: 0}
   - prefab: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
       type: 3}
     length: 27
-    xPositionRange: {x: 11, y: 11}
+    xPositionRange: {x: 20, y: 20}
     heightRange: {x: -7, y: -7}
   - prefab: {fileID: 7908087602945731709, guid: a6355e5127694064fa9c2ae735fbd313,
       type: 3}

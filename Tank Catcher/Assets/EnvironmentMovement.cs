@@ -21,6 +21,7 @@ public class tileData : MonoBehaviour
     public float length;
     public Vector2 xPositionRange;
     public Vector2 heightRange;
+    public int index;
 }
 
 public class EnvironmentMovement : MonoBehaviour
@@ -39,7 +40,7 @@ public class EnvironmentMovement : MonoBehaviour
     void Start()
     {
         //how many slices to make
-        for(int i = 0; i < worldViewDistance; i++)
+        for (int i = 0; i < worldViewDistance; i++)
         {
             //generate a terrain slice
             for (int t = 0; t < environmentPieces.Length; t++)
@@ -52,6 +53,7 @@ public class EnvironmentMovement : MonoBehaviour
                 data.length = tile.length;
                 data.xPositionRange = tile.xPositionRange;
                 data.heightRange = tile.heightRange;
+                data.index = i;
             }
         }
     }
@@ -59,14 +61,10 @@ public class EnvironmentMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        foreach(Transform tile in environmentParent)
+        foreach (Transform tile in environmentParent)
         {
-            tile.Translate(Vector3.back * movementSpeed * Time.deltaTime);
             tileData data = tile.GetComponent<tileData>();
-            if (tile.position.z < -data.length)
-            {
-                tile.position = new Vector3(Random.Range(data.xPositionRange.x, data.xPositionRange.y), Random.Range(data.heightRange.x, data.heightRange.y), data.length * (worldViewDistance-1));
-            }
+            tile.transform.position = new Vector3(tile.transform.position.x, tile.transform.position.y, (data.index * data.length) - (Time.time * movementSpeed) % ((int)(transform.position.z/data.length) * data.length));
         }
     }
 }
